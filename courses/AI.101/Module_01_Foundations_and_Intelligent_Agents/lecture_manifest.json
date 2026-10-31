@@ -1,0 +1,216 @@
+{
+  "course_code": "AI.101",
+  "course_title": "Introduction to Artificial Intelligence",
+  "degree": "Bachelor of Artificial Intelligence and Robotics Engineering",
+  "year_semester": "Year 1 \u2014 Semester 1",
+  "institution_footer": "TRIUNE BIBLICAL UNIVERSITY GLOBAL EXTENSION USA",
+  "module_number": 1,
+  "module_title": "Foundations of Artificial Intelligence and Intelligent Agents",
+  "voice_id": "voice-00",
+  "video_spec": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "audio_channels": 1,
+    "transitions": [
+      "FADE",
+      "MORPH"
+    ]
+  },
+  "clips": [
+    {
+      "clip_id": "clip_01",
+      "scenes": [
+        {
+          "slide_id": "slide_01",
+          "transition": "FADE",
+          "layout": "master_cover",
+          "narration": "Welcome to course A I one zero one, Introduction to Artificial Intelligence. This is Module One, Foundations of Artificial Intelligence and Intelligent Agents. Whether you have written computer programs before or you are starting fresh today, this course will guide you step by step in clear and simple English."
+        },
+        {
+          "slide_id": "slide_02",
+          "transition": "MORPH",
+          "layout": "objectives",
+          "narration": "Let us look at our five learning goals for Module One. First, you will explain what artificial intelligence means in plain everyday words. Second, you will trace the history of A I and compare narrow, general, and super intelligence. Third, you will understand how an intelligent agent senses its world and chooses actions. Fourth, you will calculate action scores using a simple mathematical formula. Fifth, you will write and run a real Python program for a smart warehouse robot."
+        },
+        {
+          "slide_id": "slide_03",
+          "transition": "FADE",
+          "layout": "intro_concept",
+          "narration": "So, what is artificial intelligence? In simple words, artificial intelligence is the science and engineering of building machines that can observe a situation, figure out a smart choice, learn from experience, and act to reach a goal. A regular pocket calculator only follows fixed button presses. An A I system goes further, adapting safely when the world around it changes."
+        }
+      ]
+    },
+    {
+      "clip_id": "clip_02",
+      "scenes": [
+        {
+          "slide_id": "slide_04",
+          "transition": "FADE",
+          "layout": "timeline",
+          "narration": "To understand modern A I, let us walk through five major milestones in its history. In nineteen fifty, the computer pioneer Alan Turing asked a famous question: can machines think? He proposed a practical communication test rather than guessing what happens inside a machine. Six years later, in nineteen fifty six, researchers met at Dartmouth College and officially named the field Artificial Intelligence. In the nineteen eighties, engineers built rule based expert systems that helped doctors and factories make structured decisions. In the nineteen nineties and two thousands, faster computers and bigger datasets allowed machine learning to overtake hand written rules. Since twenty twelve, deep neural networks, modern language models, and autonomous robots have brought A I into daily engineering practice."
+        },
+        {
+          "slide_id": "slide_05",
+          "transition": "MORPH",
+          "layout": "three_cards_levels",
+          "narration": "Engineers also group A I into three capability levels. The first level is Narrow A I. Every real A I system working in industry today is Narrow A I. It performs one specific job very well, such as translating speech, spotting defects on a factory line, or steering a robot. The second level is Artificial General Intelligence, a long term research goal where one system could learn any intellectual task a human can do. The third level is Superintelligence, a purely theoretical idea of a system far beyond human ability in every field."
+        }
+      ]
+    },
+    {
+      "clip_id": "clip_03",
+      "scenes": [
+        {
+          "slide_id": "slide_06",
+          "transition": "FADE",
+          "layout": "section_cover",
+          "narration": "Now we enter Part Three of our lecture, Core Theory: How Artificial Intelligence Systems Think. Over the past seventy years, computer scientists discovered that there is more than one way to make a machine act intelligently. Understanding these different schools of thought helps you choose the right engineering tool for every problem."
+        },
+        {
+          "slide_id": "slide_07",
+          "transition": "MORPH",
+          "layout": "four_grid_paradigms",
+          "narration": "There are four main approaches you must know. First is Symbolic A I. Here, human engineers write clear logic rules, such as if engine temperature exceeds ninety degrees, open the cooling valve. Symbolic A I is transparent and easy to audit, but it struggles with messy camera images. Second is Statistical A I, which uses probability numbers to make good guesses even when sensor data is noisy or incomplete. Third is Connectionism, better known as neural networks. Inspired loosely by connected brain cells, neural networks learn patterns automatically from thousands of examples. Fourth is Modern Hybrid A I, which is how top robotics teams build systems today. A robot uses neural networks to recognize objects in camera video, statistical filters to track position, and clear symbolic safety rules to guarantee it never collides with a person."
+        }
+      ]
+    },
+    {
+      "clip_id": "clip_04",
+      "scenes": [
+        {
+          "slide_id": "slide_08",
+          "transition": "FADE",
+          "layout": "agent_loop_stage_1",
+          "narration": "The single most important building block in all of A I and robotics is called an Intelligent Agent. Let us build the agent diagram step by step so every part makes complete sense. First, look at the Environment and the Sensors. The environment is simply the world where the machine works, such as a hospital hallway, a farm field, or a website. Sensors are the eyes and ears of the agent. On a physical robot, sensors include cameras, laser range finders called LiDAR, microphones, and battery meters."
+        },
+        {
+          "slide_id": "slide_09",
+          "transition": "MORPH",
+          "layout": "agent_loop_stage_2",
+          "narration": "Watch how our diagram morphs to highlight Stage Two, the Reasoning Engine. Every split second, sensor readings flow into the agent brain as structured data called a percept. Inside the reasoning engine, the agent asks a simple question: given what I observe right now, and given my goal, which action is best? This brain might use simple rules, a search algorithm, or a trained machine learning model."
+        },
+        {
+          "slide_id": "slide_10",
+          "transition": "MORPH",
+          "layout": "agent_loop_stage_3",
+          "narration": "Now look at Stage Three, Actuators and the Feedback Loop. Actuators are the hands, wheels, and voice of the agent. They carry out the chosen action using electric motors, grippers, brakes, or display screens. When an actuator moves, the environment changes, creating fresh sensor readings. This continuous cycle of Sense, Think, and Act never stops while the agent is running."
+        }
+      ]
+    },
+    {
+      "clip_id": "clip_05",
+      "scenes": [
+        {
+          "slide_id": "slide_11",
+          "transition": "FADE",
+          "layout": "peas_framework",
+          "narration": "Before professional engineers write a single line of code for an intelligent system, they define four clear items known by the word P E A S, pronounced peas. P stands for Performance Measure: how do we score whether the agent did a good job? E stands for Environment: what surroundings, obstacles, and conditions will the agent face? A stands for Actuators: what physical or digital parts allow the agent to act? And S stands for Sensors: what inputs tell the agent what is happening right now?"
+        },
+        {
+          "slide_id": "slide_12",
+          "transition": "MORPH",
+          "layout": "worked_example_shuttle",
+          "narration": "Let us work through Example One together: designing an autonomous electric campus shuttle. First, what is our Performance Measure? Reaching the passenger stop on time, keeping passengers comfortable, obeying speed limits, and maintaining one hundred percent safety with zero collisions. Second, what is the Environment? Campus roads, crosswalks, students walking, bicycles, rain, and changing sunlight. Third, what are the Actuators? The electric drive motor, power steering, hydraulic brakes, turn signals, and passenger cabin screen. Fourth, what are the Sensors? Roof mounted LiDAR scanners, stereo cameras, radar units, wheel speed encoders, and G P S receivers. Notice how clean and practical this engineering checklist makes a complex robotics problem."
+        }
+      ]
+    },
+    {
+      "clip_id": "clip_06",
+      "scenes": [
+        {
+          "slide_id": "slide_13",
+          "transition": "FADE",
+          "layout": "math_utility",
+          "narration": "Now let us see how mathematics helps an intelligent agent choose between competing options. When a robot has two or three possible actions, we give each action a usefulness number called a Utility Score, written as capital U. Look at the equation on screen: U equals safety weight times Safety, plus speed weight times Speed, minus energy weight times Energy. Let us define every variable clearly. Capital S is the safety rating of an action from zero to ten. Capital P is the speed or progress rating from zero to ten. Capital E is the battery energy cost from zero to ten. And the small w values are positive weights chosen by the engineer to show what matters most."
+        },
+        {
+          "slide_id": "slide_14",
+          "transition": "MORPH",
+          "layout": "worked_example_math",
+          "narration": "Let us solve Worked Example Two with real numbers. Suppose we set safety weight to five, speed weight to three, and energy weight to one, because human safety comes first. Route A is a crowded shortcut: Safety is two, Speed is nine, and Energy cost is four. Multiplying step by step: five times two is ten, plus three times nine which is twenty seven, minus one times four, giving a total score of thirty three. Route B is a clear side corridor: Safety is nine, Speed is seven, and Energy cost is five. Five times nine is forty five, plus three times seven which is twenty one, minus five, giving a total score of sixty one. Sixty one beats thirty three, so the agent automatically selects the safe clear corridor."
+        }
+      ]
+    },
+    {
+      "clip_id": "clip_07",
+      "scenes": [
+        {
+          "slide_id": "slide_15",
+          "transition": "FADE",
+          "layout": "section_cover_lab",
+          "narration": "Theory becomes truly powerful when you turn it into working software. Welcome to our Practical Demonstration, where we build and run a real utility based intelligent agent in Python for an autonomous warehouse robot."
+        },
+        {
+          "slide_id": "slide_16",
+          "transition": "MORPH",
+          "layout": "code_walkthrough",
+          "narration": "Look at our Python code on screen, organized into three clean functions. At the top, sense environment collects three sensor readings into a dictionary: obstacle distance in meters, battery percentage, and whether the corridor ahead is clear. In the middle, score action applies the exact utility equation we just learned, using weights five for safety, three for speed, and one for energy. Notice that fast forward only receives high safety when the path is clear, no person is within three meters, and battery is at least twenty percent. At the bottom, choose best action tests all four possible robot actions and picks the one with the highest utility score."
+        },
+        {
+          "slide_id": "slide_17",
+          "transition": "FADE",
+          "layout": "code_output",
+          "narration": "Here is the live output when we execute this script across three warehouse situations. In an open corridor with eighty five percent battery, Fast Forward wins with a score of sixty nine point five. When a human worker steps within one point one meters, Stop and Wait wins immediately with forty nine point five, protecting the worker. And when battery drops to fourteen percent, Go Charge wins with sixty eight point zero so the robot never gets stranded."
+        }
+      ]
+    },
+    {
+      "clip_id": "clip_08",
+      "scenes": [
+        {
+          "slide_id": "slide_18",
+          "transition": "MORPH",
+          "layout": "guided_lab",
+          "narration": "Now it is your turn in Guided Laboratory Exercise One. Open the starter script named student lab zero one smart room agent dot py in your module lab folder. This agent controls a smart room robot that can run high cooling, gentle eco fan, floor vacuuming, or battery charging. First, run the script and inspect the four test scenarios. Second, adjust the comfort, cleanliness, and energy weights so low battery always sends the robot to its charging dock. Third, add a fifth test case for a warm room during quiet study hours, and verify that the robot selects the quiet eco fan rather than the loud vacuum."
+        },
+        {
+          "slide_id": "slide_19",
+          "transition": "FADE",
+          "layout": "real_world_grid",
+          "narration": "Where do we see this exact intelligent agent architecture working in the real world today? In hospitals, diagnostic imaging tools scan X rays to highlight early signs of illness so doctors can treat patients faster. On modern farms, solar powered agricultural robots inspect crop leaves with cameras and water or weed individual plants with millimeter precision. In electronics factories, vision guided robotic arms inspect thousands of circuit boards per hour without fatigue. Every single one of these industries relies on clean sensors, mathematical decision scoring, and well tested actuators."
+        }
+      ]
+    },
+    {
+      "clip_id": "clip_09",
+      "scenes": [
+        {
+          "slide_id": "slide_20",
+          "transition": "MORPH",
+          "layout": "common_mistakes",
+          "narration": "Before you design your own A I systems, watch out for four common mistakes that beginners often make. Mistake one is confusing memorization with real intelligence. A model that memorizes training answers may fail completely on new real world inputs. Mistake two is assuming sensors are always perfect. Real cameras get blurry in rain or glare, so good agents always check for uncertain readings. Mistake three is over engineering. Never use a massive neural network when five clear rules solve the problem faster and more safely. Mistake four is ignoring physical safety limits. Every robot needs hard stop rules when a person comes too close."
+        },
+        {
+          "slide_id": "slide_21",
+          "transition": "FADE",
+          "layout": "quiz_questions",
+          "narration": "Let us pause for three quick Knowledge Check questions to test your understanding. Question one: Is a factory welding camera system an example of Narrow A I or General A I? Question two: In the P E A S framework, is a robot wheel motor classified as a sensor or an actuator? Question three: In our utility formula, what happens to the score of an action if its energy cost increases while safety and speed stay the same?"
+        },
+        {
+          "slide_id": "slide_22",
+          "transition": "MORPH",
+          "layout": "quiz_answers",
+          "narration": "Let us check your answers. For Question one, it is Narrow A I, because it excels at one focused inspection task. For Question two, a wheel motor is an actuator, because it produces physical motion in the world. For Question three, the utility score goes down, because energy cost is subtracted in our formula."
+        }
+      ]
+    },
+    {
+      "clip_id": "clip_10",
+      "scenes": [
+        {
+          "slide_id": "slide_23",
+          "transition": "FADE",
+          "layout": "assignment",
+          "narration": "To complete Module One, here is your Practical Engineering Assignment. Design an Autonomous Greenhouse Watering Robot. In Part A, write a complete P E A S specification table listing at least three performance goals, four environment conditions, three actuators, and four sensors, such as soil moisture probes and leaf temperature cameras. In Part B, write a Python script that reads soil moisture, sunlight level, and water tank level, computes utility scores for Water Plants, Open Shade Roof, Refill Tank, and Standby, and prints decisions for four realistic test cases."
+        },
+        {
+          "slide_id": "slide_24",
+          "transition": "MORPH",
+          "layout": "summary_closing",
+          "narration": "Let us summarize what you mastered in Module One of A I one zero one. You learned what artificial intelligence is in clear, simple terms, explored its history from nineteen fifty to modern hybrid systems, and distinguished Narrow A I from General Intelligence. You traced the Sense, Think, and Act loop of an intelligent agent, applied the P E A S engineering framework, calculated mathematical utility scores, and ran a live Python robot decision program. In Module Two, we will build directly on this foundation to explore Problem Solving and Search Algorithms, showing how an agent plans multi step routes through complex maps. Thank you for learning with us, and see you in Module Two."
+        }
+      ]
+    }
+  ]
+}
