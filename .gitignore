@@ -1,0 +1,7 @@
+# Generated media & local build caches
+*.mp4
+*.wav
+.cache/
+.venv/
+__pycache__/
+/tmp/
